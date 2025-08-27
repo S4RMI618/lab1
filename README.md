@@ -18,12 +18,13 @@ Creación de un **API REST** con **Spring Boot**, **MySQL**, **JPA** y **Maven**
 src/main/java/com/laboratorio1
  ├── controller
  │    └── PersonaController.java
- ├── entities
+ ├── model
  │    └── Persona.java
  ├── repository
  │    └── PersonaRepository.java
  └── services
-      ├── IPersonaService.java
+      ├── Interfaces.java
+      |     └── IPersonaService.java
       └── PersonaServiceImpl.java
 ```
 `src/main/resources/application.properties` debe existir.
